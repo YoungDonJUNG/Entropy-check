@@ -34,9 +34,9 @@ for b in range(256):
         if byte == b: 
             ctr += 1 
     freqList.append(float(ctr) / fileSize) 
-# print 'Frequencies of each byte-character:' 
-# print freqList 
-# print 
+#print "Frequencies of each byte-character:"
+#print freqList 
+#print 
  
 # Shannon entropy 
 ent = 0.0 
